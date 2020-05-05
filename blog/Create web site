@@ -1,0 +1,144 @@
+
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span12">
+			<p>
+				 <a class="btn" href="https://aiyanintofire.github.io/4/index.html">《 返回主站</a>
+			</p>
+			<div class="page-header">
+				<h1>
+					关于建站的小结 <small>-2020-05-05</small>
+				</h1>
+			</div>
+			<p>
+				由于博主是穷学生一枚，所以没钱买服务器和域名，所以只能用GitHub个人托管项目建站。
+			</p>
+			<p>
+				那么，这篇博客是我这几一段时间学前端尤其是网页开发的总结，同时也作为一篇前端开发教程送给各位想建立自己网站的同学的一篇教程。
+			</p>
+			<p>
+				一个网站的大体有什么组成呢？简单来说，一个网站由 域名 DNS服务器 网站服务器 网页内容组成
+			</p>
+			<p>
+				先说说域名,有钱的同学可以上如国内的有如万网 阿里巴巴 DNSPODES 国外的如dodady之类的网站买一个域名,也不贵,连同一并提供DNS服务的域名也就几十块钱一年。但是对于一名在校学生而言，其实并不值得·花费大量的财力物力在这上面。
+			</p>
+			<p>
+				所以我要讲的第二种方案，显然给适合像我一样，想要炫技，但钱包空空的穷学生，我们可以通过git项目来搭建个人网站。著名的git项目托管站有很多国内的gitee国外的有GitHub gitlab等。
+			</p>
+			<p>
+				博主我首推GitHub，因为他对于新手很友好，至少储存容量没有限制。只不过是国际网站，可能访问速度比较慢。
+			</p>
+			<p>
+				下面以GitHub为例，我们来具体说一说怎么操作
+			</p>
+			<p>
+				首先你必须要有一个GitHub账号，建议注册时用你常用的邮箱，这样可以有效防止信息泄露和保障你建立的网站的安全性，注册账号建议用chrome(谷歌浏览器)，因为有自带的网站翻译。然后给你的GitHub账号起一个好听的名字(等一下你建立的网站地址名称会是你的账户名)
+			</p>
+			<p>
+				打开GitHub.com来到你的主页，在右上角有个＋的符号，点击它
+			</p>
+			<p>
+				会有一个下拉菜单弹出 ，点击最上面的一个选项也就是New repository选项这个选项的意思是：新建储存库
+			</p>
+			<p>
+				点完新建储存库后你会看到有一个按钮上显示你的账户名，在这个按钮后会有一个/ (斜杠)，而斜杠后会有一个输入框
+			</p>
+			<p>
+				在这个输入框中输入：name(你的账户名).github.io
+			</p>
+			<p>
+				就像博主，我的GitHub账户名叫:aiyanintofire
+			</p>
+			<p>
+				所以我在这个输入框中输入:aiyanintofire.github.io
+			</p>
+			<p>
+				输完后下拉到最后有个绿绿的按钮，把它按下。这样你的网站就有域名了，你的网站的域名就是：name(你的账户名).github.io就像博主，我的域名是aiyanintofire.github.io而我们的DNS提供商就是GitHub
+			</p>
+			<p>
+				创建完储存库后仔细找找会发现有一个方框里大大大“http”下有一行小小蓝色的字写着create new file 的按钮，翻译过来就是：建立新档案(或创建新文件)点击它，跳转新界面后见到一个大大的输入框还标有第一行的标志。就在这个框上面有小很多一个方框，这个小一点的方框后面还跟着个名叫cancel的按钮，在这个小方框中输入：index.html
+			</p>
+			<p>
+				先不要关闭这个界面，先跟我走。
+			</p>
+			<p>
+				如果会html编程的同学请略过我现在要说的部分
+			</p>
+			<p>
+				不会html的同学跟我走！
+			</p>
+			<p>
+				打开：<a href="https://www.bootcss.com/p/layoutit">https://www.bootcss.com/p/layoutit</a>
+			</p>
+			<p>
+				在布局设置里随便选择一个按住拖住按钮把他拖进右边的界面然后把你要添加的组件拖进你刚刚拖进去的方框(tips:布局设置里的方框可以拖进多个，这多个方框可以互相镶套，也可以上下并列)大家大胆摸索一下就会用了。
+			</p>
+			<p>
+				把你满意的作品点击保存在保存键旁有一个名叫：下载 的按钮
+			</p>
+			<p>
+				点击它
+			</p>
+			<p>
+				会弹出一些代码，把全部的代码复制，然后粘贴到刚刚在GitHub创建的index.html文件的大方框里，在粘贴前先在大方框里随便按几行回车键(至少创建四行空白)。然后在回车创建的空白行里粘贴以下代码：
+			</p>
+			<p>
+				&lt;link rel="stylesheet" href="bootstrap-responsive.css"&gt;
+			</p>
+			<p>
+				&lt;link rel="stylesheet" href="bootstrap-responsive.min.css"&gt;
+			</p>
+			<p>
+				&lt;link rel="stylesheet" href="bootstrap.css"&gt;
+			</p>
+			<p>
+				&lt;link rel="stylesheet" href="bootstrap.min.css"&gt;
+			</p>
+			<p>
+				下拉到最后，还是点击那个绿绿的按钮(保存)
+			</p>
+			<p>
+				然后打开<a href="http://GitHub.com">http://GitHub.com</a>点击你创建好的的储存库在刚刚我们按下的create new file 按钮旁有另一个叫：upload file 的按钮点击它，先别关这个界面
+			</p>
+			<p>
+				打开<a href="https://www.bootcss.com/">https://www.bootcss.com/</a>下载：Bootstrap3中文文档
+			</p>
+			<p>
+				在下载好的文件中打开一个叫css的小文件夹里面有四个小文件(你其实可以前往 往<a href="https://yzgshare.imfast.io/">https://yzgshare.imfast.io/</a> 博主分享 那里下载)
+			</p>
+			<p>
+				然后把四个小文件拖进 upload file 界面里的方框内，先耐心等待，喝杯茶压压惊
+			</p>
+			<p>
+				等文件传输好后还是点击那个网页末端的 绿绿的按钮(保存)
+			</p>
+			<p>
+				打开你的网页：name(你的账号名).github.io
+			</p>
+			<p>
+				博主的网页：aiyanintofire.github.io
+			</p>
+			<p>
+				Amazing！网站创建好了！
+			</p>
+			<p>
+				记得私信博主让博主康康你的网站！
+			</p>
+			<p>
+				博主：严之艮-2020-05-05
+			</p>
+			
+			
+		</div>
+	</div>
+</div>
